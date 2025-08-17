@@ -1,0 +1,19 @@
+// Tampilkan pesan saat tombol di hero diklik
+function showMessage() {
+    alert("Mantap! Website ini dibuat di HP pakai Acode 🎉");
+}
+
+// Kirim pesan dari form kontak
+function sendMessage(event) {
+    event.preventDefault(); // biar tidak reload
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    if (name && email && message) {
+        alert(`Terima kasih ${name}! Pesan kamu sudah terkirim.`);
+    } else {
+        alert("Harap isi semua form sebelum mengirim.");
+    }
+}

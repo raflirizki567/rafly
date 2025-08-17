@@ -1,0 +1,112 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background: #007bff;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.hero button:hover {
+    background: #f1f1f1;
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact {
+    background: #f1f1f1;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact input, .contact textarea, .contact button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.contact button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+.contact button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
